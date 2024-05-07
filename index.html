@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- Define que el documento es HTML5 -->
+<html lang="es">
+<!-- El documento está en español -->
+<head>
+    <meta charset="UTF-8">
+    <!-- Codificación de caracteres UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Asegura la visualización adecuada y una escala inicial en dispositivos móviles -->
+    <title>Guardar Teclas Presionadas</title>
+    <!-- Título de la página que aparece en la pestaña del navegador -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Vincula el archivo de estilos CSS externo -->
+</head>
+<body>
+    <div class="container mt-5">
+        <!-- Contenedor principal centrado con un margen superior -->
+        <h1>Guardar Teclas Presionadas</h1>
+        <!-- Título de la página -->
+        <form id="keyForm">
+            <!-- Formulario para capturar las teclas presionadas -->
+            <div class="form-group">
+                <!-- Grupo de formulario para mejorar la organización -->
+                <label for="pressedKeys">Teclas Presionadas: </label>
+                <!-- Etiqueta para el campo de entrada -->
+                <input type="password" class="form-control"
+                id="pressedKeys" name="pressedKeys" />
+                <!-- Campo de entrada para mostrar las teclas presionadas -->
+                <label for="lblPressedKeys" id="lblPressedKeys"></label>
+                <!-- Etiqueta para mostrar las teclas presionadas textualmente -->
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <!-- Botón para enviar el formulario -->
+        </form>
+    </div>
+    <script src="script.js"></script>
+    <!-- Vincula el archivo JavaScript que maneja la lógica de la página -->
+</body>
+<!-- Esta etiqueta cierra el <body>, que es donde termina el contenido visible de la página. -->
+</html>
+<!-- Esta etiqueta cierra el documento HTML. -->

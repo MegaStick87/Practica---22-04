@@ -1,0 +1,62 @@
+body {
+    background: url('https://source.unsplash.com/1600x900/?nature,water') no-repeat center center fixed; /* Imagen de fondo fija y centrada */
+    background-size: cover; /* Asegura que el fondo cubra toda el área visible */
+    font-family: 'Arial', sans-serif; /* Fuente general para el cuerpo */
+    display: flex; /* Usa Flexbox para centrar el contenido */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 100vh; /* Altura total de la ventana del navegador */
+    margin: 0; /* Elimina cualquier margen exterior */
+    text-shadow: 2px 2px 4px #000000; /* Sombra de texto para mejorar la legibilidad */
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.2); /* Fondo semi-transparente */
+    border-radius: 10px; /* Bordes redondeados */
+    backdrop-filter: blur(10px); /* Filtro de desenfoque detrás del contenedor */
+    padding: 2rem; /* Espaciado interno para el contenido */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera para efecto visual */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Borde sutil y semi-transparente */
+}
+
+h1 {
+    color: white; /* Color del texto */
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-bottom: 2rem; /* Espacio debajo del título */
+}
+
+.form-group {
+    margin-bottom: 1rem; /* Espacio debajo de cada grupo de formulario */
+}
+
+label {
+    color: white; /* Color del texto de la etiqueta */
+    margin-bottom: 0.5rem; /* Espacio debajo de la etiqueta */
+    display: block; /* Asegura que la etiqueta ocupe su propia línea */
+}
+
+.form-control {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    padding: 0.8rem; /* Espaciado interno para facilitar la escritura */
+    border-radius: 5px; /* Bordes redondeados */
+    border: none; /* Sin bordes */
+    outline: none; /* Elimina el contorno al enfocar */
+    color: black; /* Color del texto dentro del input */
+    background: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente para el input */
+}
+
+.btn {
+    background-color: #007BFF; /* Color de fondo para el botón */
+    border: none; /* Sin bordes */
+    padding: 0.8rem 2rem; /* Espaciado interno */
+    color: white; /* Color del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor en forma de mano al pasar el ratón */
+    display: block; /* Ocupa su propia línea */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    margin-top: 1rem; /* Espacio encima del botón */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón */
+}
